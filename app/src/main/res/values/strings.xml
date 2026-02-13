@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NewsOrbit</string>
+    <string name="loading">Loading…</string>
+    <string name="error_generic">Something went wrong</string>
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_no_articles">No articles found</string>
+    <string name="retry">Retry</string>
+    <string name="article_detail">Article Detail</string>
+    <string name="published_at">Published: %s</string>
+    <string name="source">Source: %s</string>
+    <string name="empty_state_title">No News Available</string>
+    <string name="empty_state_message">Pull down to refresh or check back later</string>
+    <string name="content_description_article_image">Article image</string>
+</resources>
