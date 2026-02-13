@@ -58,7 +58,7 @@ NewsOrbit/
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone git remote add origin https://github.com/ManavDodiya/NewsOrbit.git
 cd NewsOrbit
 ```
 
@@ -73,7 +73,7 @@ cd NewsOrbit
 Open `local.properties` file in the project root and add your API key:
 
 ```properties
-NEWS_API_KEY=your_api_key_here
+NEWS_API_KEY=92d8a303cfea40218398454edaaf45fa
 ```
 
 > **⚠️ Important**: Never commit `local.properties` to version control. It's already in `.gitignore`.
@@ -148,18 +148,6 @@ suspend fun getTopHeadlines(
 ./gradlew assembleRelease
 ```
 
-## 🧪 Testing
-
-### Manual Testing Checklist
-
-- [ ] Articles load on first launch
-- [ ] Pull-to-refresh works
-- [ ] Pagination loads more articles
-- [ ] Article detail shows full information
-- [ ] Offline mode shows cached articles
-- [ ] Error states display correctly
-- [ ] Dark mode works properly
-
 ## 🐛 Troubleshooting
 
 ### API Key Issues
@@ -192,3 +180,6 @@ This project is for educational and demonstration purposes.
 ---
 
 **Note**: This app uses the free tier of NewsAPI (100 requests/day). For production use, consider upgrading to a paid plan.
+
+![home screen](https://github.com/user-attachments/assets/ca735ef1-822e-421b-ad62-979bdb97549e)
+![detail screen](https://github.com/user-attachments/assets/33dae62d-8da0-4b38-9927-5dbc6dc2c456)
