@@ -117,7 +117,7 @@ GET https://newsapi.org/v2/top-headlines
 ```
 
 Default parameters:
-- `country`: us
+- `country`: US
 - `pageSize`: 20
 - `page`: 1, 2, 3... (for pagination)
 
