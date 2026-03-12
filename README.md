@@ -72,10 +72,6 @@ cd NewsOrbit
 
 Open `local.properties` file in the project root and add your API key:
 
-```properties
-NEWS_API_KEY=92d8a303cfea40218398454edaaf45fa
-```
-
 > **⚠️ Important**: Never commit `local.properties` to version control. It's already in `.gitignore`.
 
 ### 4. Build and Run
